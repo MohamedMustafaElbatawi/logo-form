@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* *,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+
+/* body {
+    background-color: #99a10050;
+    background-color: #00030050;
+    background-image: linear-gradient(to right, #01022d, #000);
+    background: linear-gradient(to right, #000004e5, #06040478 30%),url(image/pexels-adria-masi-461420600-27962178.jpg) ;
+    background-color: #dad3f8;
+    /* background: linear-gradient(#111, #222); */
+/* background-image: linear-gradient(to left, #dfdf68, #d5d8); */
+/* } */
+
+
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very1-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very2-dark-grayish-blue: hsl(217, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-gray-blue12: hsl(210, 46%, 95%);
+    /* background: #f7f7f7; */
+    /* background: #749cb5;
+    background: #ae445a; 
+    background: #fab946; */
+}
+
+
+html,body {
+    background: #b73b52;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.continer{
+    background-color: aliceblue;
+    max-width: 315px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px 6px rgba(0, 0, 0, .3);
+
+}
+
+.continer .logo{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.continer .poiner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0 15px 0;
+}
+.continer .poiner .poin1{
+    background-color: #4267b2;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    width: 48%;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+.continer .poiner .poin2{
+    background-color: #1da1f2;
+    width: 48%;
+    border-radius: 5px;
+    color: #fff;
+    height: 35px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+}
+.continer .poiner .poin1 i,
+.continer .poiner .poin2 i{
+    font-size: 14px;
+    font-weight: 400;
+}
+.continer .poiner .poin1 span,
+.continer .poiner .poin2 span{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+.continer form {
+    width: 100%;
+}
+.continer form label{
+    position: relative;
+    margin: 10px 0;
+}
+.continer form .inbb input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #000;
+    padding-left: 25px;
+    margin: 7px 0;
+    font-size: 17px;
+    
+}
+.continer form .inbb i{
+    position: absolute;
+    top: 0;
+    left: 5px;
+    opacity: .7;
+}
+.continer form input::placeholder{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+    opacity: .9;
+}
+
+
+.continer form .reverse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.continer form .reverse a{
+    color: #b73b52;
+    transition: .3s;
+    text-decoration: none;
+}
+.continer form .reverse a:hover{
+    color: blue;
+}
+
+.continer form .submit input{
+    padding: 0px;
+    color: #fff;
+    background: #b73b52;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.continer form .submit input:hover{
+    background: #992c40bb;
+
+}
+
+.continer  p{
+    text-align: center;
+    margin: 7px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
